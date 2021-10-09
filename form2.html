@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        form {
+            margin: 0cm 7cm;
+            width: 750px;
+            box-sizing: border-box;
+            background-color: rgb(250, 249, 246);
+        }
+        h3 {
+            text-align: center;
+            padding: 15px;
+        }
+        .txt {
+            width: 45%;
+            margin: 6px;
+            padding: 5px;
+        }
+        .area {
+            width: 95%;
+            margin: 6px;
+            padding: 5px;
+        }
+        .leb {
+            margin: 6px;
+            padding: 5px;
+        }
+      .app {
+            color: white;
+            background-color: black;
+            padding: 4px 12px;
+           margin-left: 9cm;
+           margin-top: 1cm;
+           margin-bottom: 1cm;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            padding: 10px;
+        }
+        .padi {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+  
+    <form>
+        <h3>INTERNSHIP APPLICATION FORM</h3>
+        <div>
+        <lebel class="leb">Name</lebel><br><input type="text" class="txt" placeholder="First"><input type="text" class="txt" placeholder="Last"><br><br>
+        </div>
+        <div>
+        <label class="leb">Email </label><br><input type="email" class="txt" placeholder="email">
+        <input type="date" class="txt" placeholder="MM/DD/YYYY">
+        </div>
+        <div>
+            <lebel class="leb">Address</lebel><br><input type="text" class="area" placeholder="Street address"><input type="text" class="area" placeholder="Street address 2"><br><br>
+            </div>
+            <div>
+                <input type="text" class="txt" placeholder="City"><input type="text" class="txt" placeholder="Region"><br><br>
+                <input type="number" class="txt" placeholder="Postal/zip code">
+                <select class="txt">
+                    <option>India</option>
+                    <option>Sweden</option>
+                    <option>Africa</option>
+                    <option>Romania</option>
+                    <option>Denmark</option>
+                    <option>America</option>
+                    <option>Qatar</option>
+                    <option>UAE</option>
+                    <option>Bangladesh</option>
+                    <option>China</option>
+                </select><br><br>
+            </div>
+            <div>
+                <label class="leb">School name</label><br>
+                <input type="text" class="area">
+            </div>
+            <div>
+                <label class="leb">Phone Number</label><br>
+                <input type="number" class="area" placeholder="### ### ####">
+            </div>
+           
+            <div>
+                <label class="leb">Attach Your CV</label><br>
+                <input type="file" class="area" placeholder="Choose file">
+            </div>
+            <div>
+                <label class="leb">Personal Information</label><br>
+                <textarea class="area"></textarea>
+            </div>
+            <div>
+                <label class="leb">List of days/hours available for work</label><br>
+                <input type="text" class="area">
+            </div>
+            <div>
+                <label class="leb">List of unavailable dates</label><br>
+                <input type="text" class="area">
+            </div>
+    
+                <label class="leb">Area of interest (you may select more than one) </label><br>
+            <div class="grid">
+                <label class="padi"><input type="checkbox">Administration</label>
+                <label class="padi"><input type="checkbox">English</label>
+                <label class="padi"><input type="checkbox">Events Planning</label>
+          
+                <label class="padi"><input type="checkbox">English/Publication</label>
+                <label class="padi"><input type="checkbox">Marketing</label>
+                <label class="padi"><input type="checkbox">Production Lightning</label>
+    
+                <label class="padi"><input type="checkbox">Translation</label>
+                <label class="padi"><input type="checkbox">Market Research</label>
+                <label class="padi"><input type="checkbox">Production Stage Management</label>
+                            
+                <label class="padi"><input type="checkbox">Teaching</label>
+                <label class="padi"><input type="checkbox">Social Media</label>
+                <label class="padi"><input type="checkbox">Production - Costume</label> 
+                            
+                <label class="padi"> <input type="checkbox">Visual arts</label>
+                <label class="padi"><input type="checkbox">Graphic Design</label>
+                <label class="padi"><input type="checkbox">Production - Makeup </label>
+                           
+                <label class="padi"> <input type="checkbox">Performing arts</label>
+                <label class="padi"><input type="checkbox">Photography</label>
+                <label class="padi"><input type="checkbox">Production - Set desing</label>
+                          
+                <label class="padi"><input type="checkbox">Communication arts</label>
+                <label class="padi"><input type="checkbox">Videography</label>
+                <label class="padi"><input type="checkbox">Production - Sound</label><br>
+        </div>
+        
+             <input type="button" class="app" value=" Apply " >
+           
+       
+    </form>
+</body>
+</html>

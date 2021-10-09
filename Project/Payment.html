@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fee Payment</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style>
+        *{
+    margin: 0 ;
+    padding: 0 ;
+    list-style: none;
+    text-decoration: none ;
+    font-family: sans-serif ;
+    box-sizing: border-box;
+}
+    nav {
+    background: cornsilk;
+    background-color: rgb(153, 83, 120);
+    height: 80px;
+    width: 100%;
+    /* float: right; */
+}
+.logo {
+    color: white;
+    font-size: 50px ;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    margin-left: 30px;
+}
+#payhome {
+    /* display: inline-block; */
+    line-height: 80px;
+    color: white;
+    font-size: 40px;
+    padding: 7px 13px;
+    float: right;
+    margin-right: 30px;
+}
+section{
+    background: url(section.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    transition: all .5s ;
+}
+form {
+    width: 800px;
+    color: white;
+    position: absolute;
+    padding: 30px 210px;
+    line-height: 70px;
+    margin: auto;
+    font-weight: bold;
+    text-transform: capitalize;
+    
+}
+h1 {
+    width: 800px;
+    border: black;
+    padding: 10px 30px;
+    margin: auto;
+    font-size: 35px;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 6);
+    border-radius:30px;
+    word-spacing: 3pc;
+    }
+    .main{
+        color: black;
+        width: 800px;
+        position: relative;
+        top: 25px;
+        padding: 40px;
+        margin: auto;
+        font-weight: 700px;
+        background: url(payment.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .name {
+        position: relative;
+        margin-right: 25px;
+        margin-left: 25px;
+        line-height: 40px;
+        border-radius: 6px;
+        padding: 0 22px;
+    }
+    .mail {
+        width: 548px;
+        margin-left: 15px;
+        border-radius: 5px;
+        line-height: 20px;
+        padding: 0 22px;
+    }
+    .reg {
+        width: 500px;
+        margin-left: 15px;
+        border-radius: 5px;
+        line-height: 20px;
+        padding: 0 22px;
+    }
+    .cb {
+        font: small;
+        font-weight: lighter;
+        line-height: 6px;
+        margin-bottom: 7px;
+    }
+    .btn {
+        background-color: #264d58;
+        color: white;
+        padding: 10px 15px;
+        border: #122029;
+        float: right;
+        bottom: 10px;
+    }
+    </style>
+</head>
+<body>
+  <nav>
+       <lebel class="logo">KIST</lebel>
+       <a href="index.html"><i class="fas fa-home" id="payhome"></i></a>
+</nav> 
+<section>
+    <form>
+    <div class="ofs">
+       <h1>ONLINE FEE SUBMISSION</h1>
+       <div class="main">
+        <div>
+        <label for="fname"> First name </label>
+        <input type="text" class="name">
+        <label for="tname"> last name </label>
+        <input type="text" class="name">
+    </div>
+<div>
+        <label for="email"> e-mail id </label>
+        <input type="email" class="mail">
+    </div>
+<div>
+        <label for="reg.no"> registration no. </label>
+        <input type="number" class="reg">
+    </div>
+<div class="branch">
+        <label for="branch"> branch </label>
+        <select>
+            <option disabled: "disabled" selected:"selected">choose Option</option>
+            <option> COMPUTER SCIENCE </option>
+            <option> CIVIL </option>
+            <option> ELECTRICAL </option>
+            <option> ELECTRONICS AND COMMUNICATION </option>
+            <option> MECHANICAL </option>
+            <option> IMBA </option>
+            <option> MBA </option>
+        </select>
+    </div>
+<div class="sem">
+        <label for="semester"> semester </label>
+        <select>
+            <option disabled: "disabled" selected:"selected">choose Option</option>
+            <option> 1st </option>
+            <option> 2nd </option>
+            <option> 3rd </option>
+            <option> 4th </option>
+            <option> 5th </option>
+            <option> 6th </option>
+            <option> 7th </option>
+            <option> 8th </option>
+            <option> 9th </option>
+            <option> 10th </option>
+        </select>
+        <div class="cb">
+        <input type="checkbox" id="chk"> The above information is correct
+        </div>
+        <input type="button" class="btn" value="Proceed to pay">
+     </div>
+        </div>
+    </form>
+    </section>
+</body>
+</html>

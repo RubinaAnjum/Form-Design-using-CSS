@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style>
+      
+        body {
+            background-color: rgb(240, 240, 240);
+        }
+          h1 {
+              text-align: center;
+           }
+           .leb {
+              margin-left: 10cm;
+               padding: 0.5cm;
+               font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+               font-weight: bold;
+               direction: inherit;
+            }
+            .area {
+                width: 7cm;
+                padding: 4px;
+                line-height: 15px;
+                display: inline;
+            }
+           .sub{
+                color: white;
+                background-color: rgb(243, 144, 127);
+                padding: 6px 35px;
+                margin-left: 15cm;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                border-radius: 5px;
+            }
+            i {
+                background-color: rgb(180, 180, 180);
+                padding: 5px;
+                border-radius: 3px 0px 0px 3px;
+                
+             }
+            .leb, span {
+                 line-height: 1.3cm;
+           
+             }
+             span {
+                 margin-right: 10cm;
+                 float: right;
+             }
+             #icon {
+                 background: none;
+                 color: white;
+             }
+    </style>
+</head>
+<body>
+    
+    <form>
+        <h1>REGISTRATION FORM</h1><hr><br>
+      
+    <label class="leb" style="padding-left: 82px;">First Name</label>
+   <span> 
+       <i class="fas fa-user"></i><input type="text" class="area" placeholder="First Name"><br>
+   </span>
+   <label class="leb" style="padding-left: 84px;">Last Name</label>
+   <span>
+       <i class="fas fa-user"></i><input type="text" class="area" placeholder="Last Name"><br>
+    </span>
+   
+    <label class="leb">Department/Office</label>
+    <span>
+    <i class="fas fa-bars"></i>
+    <select class="area">
+        <option>Select your Department/Office</option>
+        <option> Civil</option>
+        <option>Computer Science and Engineering</option>
+        <option>Electrical</option>
+        <option>Electronics and Communication Engineering</option>
+        <option>Information Technology</option>
+        <option>Mechanical</option>
+        <option>Petroleum</option>
+    </select><br> 
+</span>
+
+    <label class="leb"  style="padding-left: 84px;">User Name</label>
+    <span>
+        <i class="fas fa-user"></i><input type="text" class="area" placeholder="User Name"><br>
+    </span> 
+    <label class="leb"  style="padding-left: 90px;">Password</label> 
+    <span>
+        <i class="fas fa-user"></i><input type="password" class="area" placeholder="Password"><br>
+    </span>
+    <label class="leb" style="padding-left: 25px;">Confirm Password</label>
+<span>
+<i class="fas fa-user"></i><input type="password" class="area" placeholder="Confirm Password"><br>
+</span>
+    <label class="leb" style="padding-left: 110px;">E-mail</label> 
+<span>
+<i class="fas fa-envelope"></i><input type="email" class="area" placeholder="E-mail Address"><br>
+</span>  
+    <label class="leb" style="padding-left: 35px;">Contact Number</label>
+<span>
+<i class="fas fa-phone-alt"></i><input type="number" class="area" placeholder="(639)"><br><br>
+</span> 
+
+<button type="submit" class="sub">SUBMIT<i id="icon" class="fas fa-paper-plane"></i></button>
+</form>
+</body>
+</html>

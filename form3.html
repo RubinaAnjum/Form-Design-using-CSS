@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation form</title>
+    <style>
+        body {
+            background-color: black;
+        }
+        form {
+            width: 700px;
+            background-color: whitesmoke;
+            margin-left: 7cm;
+            padding: 5px;
+        }
+       h1 {
+           text-align: center;
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       }
+       .leb {
+           margin-left: 2cm;
+           font-size: 16px;
+       }
+       .txt {
+           width: 350px;
+            margin-left: 6cm;
+           margin-bottom: 4px;
+           border: 1px solid gray;
+           padding: 4px;
+           background-color: rgb(228, 228, 228);
+           border-radius: 1px;
+       }
+       .pick {
+           margin-left: 2.5cm;
+          
+       }
+       .sub {
+           background-color: rgb(63, 63, 165);
+           color: white;
+           float: right;
+           padding: 5px 15px;
+           margin-right: 3cm;
+       }
+       .no {
+           margin-left: 1cm;
+           background-color: rgb(228, 228, 228);
+           margin-bottom: 2px;
+           border: 1px solid gray;
+           padding: 4px;
+           border-radius: 2px;
+       }
+
+    </style>
+</head>
+<body>
+    <form>
+        <h1> RESERVATION FORM</h1>
+        <label class="leb" >Name*</label> <input type="text" class="txt" placeholder="Name"><br>
+        <label class="leb">Email*</label> <input type="email"  class="txt" placeholder="Email*"><br>
+        <label class="leb">Room Type</label>
+    <select class="txt">
+        <option>Select..</option>
+        <option>Economy</option>
+        <option>Business</option>
+        <option>First</option>
+    </select><br>
+    <label class="leb">Arrival Date*</label><input type="date"  class="txt"><br>
+    <label class="leb">Departure Date*</label><input type="date"  class="txt"><br>
+    <label class="leb">Number of guest*</label><input type="number"  class="no"><br><br>
+    <label class="leb">Free pick</label>
+    <input type="radio" name="pick" class="pick"><label>Yes</label>
+    <input type="radio" name="pick" ><label>No</label><br><br>
+    <label class="leb">Flight Number</label><input type="number"  class="txt" placeholder="Flight Number"><br>
+    <label class="leb">Special Request</label><br><textarea  class="txt">Type Here</textarea><br>
+    <input type="submit" class="sub"><br><br>
+    </form>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <style>
+        body {
+            background-color: rgb(23, 23, 23);
+        }
+        h1 {
+            color: rgb(32, 32, 32);
+            font-family: 'Times New Roman', Times, serif;
+        }
+        form {
+            background-color: white;
+            width: 600px;
+            margin-left: 8cm;
+            box-sizing: border-box;
+            padding: 8px;
+        }
+        p {
+            font-size: small;
+            font-family: cursive;
+        }
+        .sub {
+            color: white;
+            background-color: rgb(54, 54, 54);
+            padding: 7px 20px;
+            margin-left: 6cm;
+        }
+        .area {
+            margin: 4px;
+            width: 98%;
+            height: 2cm;
+        }
+        .txt {
+            width: 7cm;
+            margin: 4px;
+            padding: 4px;
+            
+        }
+        .leb {
+            margin: 6px 4px;
+           
+            padding: 5px;
+            font-weight: bold;
+            color: #474646;
+           
+        }
+    </style>
+</head>
+<body>
+    <form>
+    <h1>Contact Form</h1>
+    <p>Use this contact form template on your website to receive email from visitors in no time. Les us know your question, suggestion and concerns by filling out the ontact form below. </p><hr><br>
+    <div>
+        <lebel class="leb">Name*</lebel><br><input type="text" class="txt" placeholder="First"><input type="text" class="txt" placeholder="Last"><br><br>
+        </div>
+        <div>
+        <label class="leb">Email* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Phone Number*</label><br><input type="email" class="txt" placeholder="email">
+            
+            <input type="number" class="txt" placeholder="### ### ####"><br><br>
+        <label class="leb">Message Subject*</label><br>
+        <select class="txt">
+            <option>Request</option>
+            <option>Question</option>
+            <option>Suggestion</option>
+            <option>Concern</option>
+        </select><br><br>
+        <label class="leb">Message*</label><br>
+        <textarea class="area"></textarea><br><br>
+        <input type="button" value="Send Message" class="sub"> <br><br>
+    </form>
+</body>
+</html>

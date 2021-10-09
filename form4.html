@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style>
+        body { 
+            background-color: teal;
+            font-family: monospace;
+        }
+        form {
+            background-color: white;
+            width: 600px;
+            box-sizing: border-box;
+            margin-left: 9cm;
+           
+        }
+        h1 {
+            color: white;
+            text-align: center;
+            font-family: sans-serif ;
+        }
+        h2 {
+            color: teal;
+            text-align: center;
+        }
+        .area {
+            width: 95%;
+            margin: 6px;
+            padding: 4px;
+            height: 1.5cm;
+            border: 1px solid rgb(140,140, 140);
+        }
+        .txt {
+            width: 45%;
+            margin: 6px;
+            padding: 4px;
+            border: 1px solid rgb(140,140, 140);
+        }
+        .map {
+            width: 47%;
+            margin: 6px;
+            padding: 4px;
+            border: 1px solid rgb(140,140, 140);
+            color: white;
+            background-color: teal;
+            text-align: left;
+            padding-left: 1px;
+        }
+        .sub {
+            color: white;
+            background-color: teal;
+            margin: 6px;
+            margin-bottom: 10px;
+            padding: 2px 5px;
+        }
+        i {
+           float: right;
+           padding-right: 10px;
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>Flat Contacto Widget</h1>
+    <form>
+        <br>
+        <h2>Contacto<i class="fas fa-window-close"></i></h2><hr><br>
+        <input type="text" class="txt" placeholder="First Name" >
+        <input type="text" placeholder="Last Name" class="txt">
+        <br>
+        <div> 
+            <input type="text" class="area" placeholder="Address"> 
+        </div>
+        <br>
+        <input type="number" placeholder="Zip" class="txt">
+        <input type="text" placeholder="State" class="txt"><br>
+        <input type="text" placeholder="city" class="txt">
+        <button type="button" class="map">Google Map<i class="fas fa-map-marker-alt"></i></button>
+        <input type="number" placeholder="Phone Number" class="txt">
+        <input type="number" placeholder="Phone company" class="txt"><br>
+        <input type="number" placeholder="Phone Home" class="txt">
+        <input type="email" placeholder="Email" class="txt"><br>
+        <div>
+            <input type="text" class="area" placeholder="History"> 
+        </div>
+        <input type="submit" class="sub">
+    </form>
+    
+</body>
+</html>
